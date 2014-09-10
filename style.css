@@ -1,0 +1,22 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document url-prefix(http://www.youtube), url-prefix(https://www.youtube) {
+
+	#ticker {
+		display: none;
+	}
+
+	#masthead-positioner-height-offset {
+		display: none;
+	}
+
+	#masthead-positioner {
+		opacity: 0.5;
+		top: -20px;
+		transition: opacity 0.2s ease, top 0.2s ease;
+	}
+
+	#masthead-positioner:hover {
+		opacity: 1;
+		top: 0px;
+	}
+}
